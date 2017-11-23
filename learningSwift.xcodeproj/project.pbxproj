@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A01F27921FC6496B00166F38 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01F27911FC6496B00166F38 /* main.swift */; };
 		A07063121FC4E7E2006CAFD9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07063111FC4E7E2006CAFD9 /* main.swift */; };
 		A070631F1FC4E808006CAFD9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070631E1FC4E808006CAFD9 /* main.swift */; };
 		A070632A1FC5B5DC006CAFD9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07063291FC5B5DC006CAFD9 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		A01F278D1FC6496B00166F38 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		A070630C1FC4E7E2006CAFD9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -43,6 +53,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A01F278F1FC6496B00166F38 /* Class&Struct */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Class&Struct"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01F27911FC6496B00166F38 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A070630E1FC4E7E2006CAFD9 /* learningSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = learningSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07063111FC4E7E2006CAFD9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A070631C1FC4E808006CAFD9 /* Closures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Closures; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +64,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A01F278C1FC6496B00166F38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A070630B1FC4E7E2006CAFD9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,12 +95,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A01F27901FC6496B00166F38 /* Class&Struct */ = {
+			isa = PBXGroup;
+			children = (
+				A01F27911FC6496B00166F38 /* main.swift */,
+			);
+			path = "Class&Struct";
+			sourceTree = "<group>";
+		};
 		A07063051FC4E7E1006CAFD9 = {
 			isa = PBXGroup;
 			children = (
 				A07063101FC4E7E2006CAFD9 /* learningSwift */,
 				A070631D1FC4E808006CAFD9 /* Closures */,
 				A07063281FC5B5DC006CAFD9 /* Enumerations */,
+				A01F27901FC6496B00166F38 /* Class&Struct */,
 				A070630F1FC4E7E2006CAFD9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +120,7 @@
 				A070630E1FC4E7E2006CAFD9 /* learningSwift */,
 				A070631C1FC4E808006CAFD9 /* Closures */,
 				A07063271FC5B5DC006CAFD9 /* Enumerations */,
+				A01F278F1FC6496B00166F38 /* Class&Struct */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +152,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A01F278E1FC6496B00166F38 /* Class&Struct */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A01F27951FC6496B00166F38 /* Build configuration list for PBXNativeTarget "Class&Struct" */;
+			buildPhases = (
+				A01F278B1FC6496B00166F38 /* Sources */,
+				A01F278C1FC6496B00166F38 /* Frameworks */,
+				A01F278D1FC6496B00166F38 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Class&Struct";
+			productName = "Class&Struct";
+			productReference = A01F278F1FC6496B00166F38 /* Class&Struct */;
+			productType = "com.apple.product-type.tool";
+		};
 		A070630D1FC4E7E2006CAFD9 /* learningSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A07063151FC4E7E2006CAFD9 /* Build configuration list for PBXNativeTarget "learningSwift" */;
@@ -184,6 +230,10 @@
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = SnoopPanda;
 				TargetAttributes = {
+					A01F278E1FC6496B00166F38 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
 					A070630D1FC4E7E2006CAFD9 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
@@ -213,11 +263,20 @@
 				A070630D1FC4E7E2006CAFD9 /* learningSwift */,
 				A070631B1FC4E808006CAFD9 /* Closures */,
 				A07063261FC5B5DC006CAFD9 /* Enumerations */,
+				A01F278E1FC6496B00166F38 /* Class&Struct */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A01F278B1FC6496B00166F38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01F27921FC6496B00166F38 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A070630A1FC4E7E2006CAFD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,6 +304,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		A01F27931FC6496B00166F38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A01F27941FC6496B00166F38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 		A07063131FC4E7E2006CAFD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -408,6 +485,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A01F27951FC6496B00166F38 /* Build configuration list for PBXNativeTarget "Class&Struct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01F27931FC6496B00166F38 /* Debug */,
+				A01F27941FC6496B00166F38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A07063091FC4E7E1006CAFD9 /* Build configuration list for PBXProject "learningSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
